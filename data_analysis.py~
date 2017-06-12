@@ -15,7 +15,7 @@ def main():
     packet, call clean_data() to apply a low pass filter to the data and
     finally plot the result."""
     y=noisy_packet(np.arange(0,np.pi,0.01),5,1,0.2)
-    plt.plot(y,np.arange(0,np.pi,0.01))
+    plt.plot(y,x)
     plt.show()
 
 def noisy_packet(x_values, k, sigma, noise_amplitude):
